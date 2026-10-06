@@ -1,0 +1,39 @@
+# 本地 demo、采样点和增量状态（发布 PNG/JSON 在 frontend/public/data，不忽略）
+/data/**
+!/data/input/
+!/data/input/.gitkeep
+/results/
+*.dem
+*.dem.bz2
+*.rar
+*.zip
+*.parquet
+*.npz
+
+# Python / uv / 测试和工具缓存
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.cache/
+/build/
+/dist/
+
+# 前端构建与依赖
+node_modules/
+/frontend/dist/
+
+# 私有本机配置、凭据和编辑器临时文件
+.env
+.env.*
+!.env.example
+.agents/
+.codex/
+.aws/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log

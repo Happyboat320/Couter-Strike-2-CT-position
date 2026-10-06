@@ -1,0 +1,88 @@
+{
+  "dust2": {
+    "pos_x": -2476.0,
+    "pos_y": 3239.0,
+    "scale": 4.4,
+    "resolution": 1024,
+    "rotate": 0,
+    "radars": {
+      "main": "assets/radars/de_dust2.png"
+    },
+    "source": "SteamDatabase/GameTracking-CS2 overview + akiver/cs-demo-manager CS2 radar",
+    "version": "downloaded-2026-10-06"
+  },
+  "mirage": {
+    "pos_x": -3230.0,
+    "pos_y": 1713.0,
+    "scale": 5.0,
+    "resolution": 1024,
+    "rotate": 0,
+    "radars": {
+      "main": "assets/radars/de_mirage.png"
+    },
+    "source": "SteamDatabase/GameTracking-CS2 overview + akiver/cs-demo-manager CS2 radar",
+    "version": "downloaded-2026-10-06"
+  },
+  "inferno": {
+    "pos_x": -2087.0,
+    "pos_y": 3870.0,
+    "scale": 4.9,
+    "resolution": 1024,
+    "rotate": 0,
+    "radars": {
+      "main": "assets/radars/de_inferno.png"
+    },
+    "source": "SteamDatabase/GameTracking-CS2 overview + akiver/cs-demo-manager CS2 radar",
+    "version": "downloaded-2026-10-06"
+  },
+  "ancient": {
+    "pos_x": -2953.0,
+    "pos_y": 2164.0,
+    "scale": 5.0,
+    "resolution": 1024,
+    "rotate": 0,
+    "radars": {
+      "main": "assets/radars/de_ancient.png"
+    },
+    "source": "SteamDatabase/GameTracking-CS2 overview + akiver/cs-demo-manager CS2 radar",
+    "version": "downloaded-2026-10-06"
+  },
+  "cache": {
+    "pos_x": -2000.0,
+    "pos_y": 3250.0,
+    "scale": 5.5,
+    "resolution": 1024,
+    "rotate": 0,
+    "radars": {
+      "main": "assets/radars/de_cache.png"
+    },
+    "source": "SteamDatabase/GameTracking-CS2 overview + akiver/cs-demo-manager CS2 radar",
+    "version": "downloaded-2026-10-06"
+  },
+  "anubis": {
+    "pos_x": -2796.0,
+    "pos_y": 3328.0,
+    "scale": 5.22,
+    "resolution": 1024,
+    "rotate": 0,
+    "radars": {
+      "main": "assets/radars/de_anubis.png"
+    },
+    "source": "SteamDatabase/GameTracking-CS2 overview + akiver/cs-demo-manager CS2 radar",
+    "version": "downloaded-2026-10-06"
+  },
+  "nuke": {
+    "pos_x": -3453.0,
+    "pos_y": 2887.0,
+    "scale": 7.0,
+    "resolution": 1024,
+    "rotate": 0,
+    "radars": {
+      "upper": "assets/radars/de_nuke.png",
+      "lower": "assets/radars/de_nuke_lower.png"
+    },
+    "source": "SteamDatabase/GameTracking-CS2 overview + akiver/cs-demo-manager CS2 radar",
+    "version": "downloaded-2026-10-06",
+    "lower_level_max_units": -495
+  }
+}

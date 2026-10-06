@@ -1,0 +1,9 @@
+:root { font-family: system-ui, sans-serif; color: #26313b; background: white; }
+body { margin: 0; }
+main { max-width: 1400px; margin: auto; padding: 24px; }
+p { line-height: 1.7; }
+select { padding: 8px; margin-left: 8px; max-width: 100%; }
+section { display: grid; grid-template-columns: repeat(auto-fit,minmax(min(100%,460px),1fr)); gap: 20px; }
+figure { margin: 0; }
+figcaption { padding: 12px 0; font-weight: 600; }
+img { width: 100%; display: block; }

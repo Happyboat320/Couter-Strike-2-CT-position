@@ -1,0 +1,111 @@
+{
+  "updated_at": "2026-10-06T12:08:17.542988+00:00",
+  "policy": "freeze+10s_alive-ct_0.2s_preplant_v2",
+  "sample_interval": 0.2,
+  "sigma": 2.5,
+  "opacity": 0.5,
+  "latest_event": "cologne-major-2026",
+  "views": [
+    {
+      "id": "all",
+      "name": "Historical total",
+      "date": null,
+      "demo_count": 8,
+      "images": [
+        {
+          "map": "anubis",
+          "layer": "main",
+          "url": "images/all-anubis-main.png",
+          "samples": 93398,
+          "player_seconds": 18679.6
+        },
+        {
+          "map": "dust2",
+          "layer": "main",
+          "url": "images/all-dust2-main.png",
+          "samples": 19939,
+          "player_seconds": 3987.8
+        },
+        {
+          "map": "inferno",
+          "layer": "main",
+          "url": "images/all-inferno-main.png",
+          "samples": 35261,
+          "player_seconds": 7052.2
+        },
+        {
+          "map": "mirage",
+          "layer": "main",
+          "url": "images/all-mirage-main.png",
+          "samples": 28144,
+          "player_seconds": 5628.8
+        },
+        {
+          "map": "nuke",
+          "layer": "lower",
+          "url": "images/all-nuke-lower.png",
+          "samples": 6006,
+          "player_seconds": 1201.2
+        },
+        {
+          "map": "nuke",
+          "layer": "upper",
+          "url": "images/all-nuke-upper.png",
+          "samples": 37232,
+          "player_seconds": 7446.4
+        }
+      ]
+    },
+    {
+      "id": "cologne-major-2026",
+      "name": "IEM Cologne Major 2026",
+      "date": "2026-06-02",
+      "demo_count": 8,
+      "images": [
+        {
+          "map": "anubis",
+          "layer": "main",
+          "url": "images/cologne-major-2026-anubis-main.png",
+          "samples": 93398,
+          "player_seconds": 18679.6
+        },
+        {
+          "map": "dust2",
+          "layer": "main",
+          "url": "images/cologne-major-2026-dust2-main.png",
+          "samples": 19939,
+          "player_seconds": 3987.8
+        },
+        {
+          "map": "inferno",
+          "layer": "main",
+          "url": "images/cologne-major-2026-inferno-main.png",
+          "samples": 35261,
+          "player_seconds": 7052.2
+        },
+        {
+          "map": "mirage",
+          "layer": "main",
+          "url": "images/cologne-major-2026-mirage-main.png",
+          "samples": 28144,
+          "player_seconds": 5628.8
+        },
+        {
+          "map": "nuke",
+          "layer": "lower",
+          "url": "images/cologne-major-2026-nuke-lower.png",
+          "samples": 6006,
+          "player_seconds": 1201.2
+        },
+        {
+          "map": "nuke",
+          "layer": "upper",
+          "url": "images/cologne-major-2026-nuke-upper.png",
+          "samples": 37232,
+          "player_seconds": 7446.4
+        }
+      ]
+    }
+  ],
+  "coverage": "仅统计手动导入的 demo，不代表赛事已完整收集"
+}

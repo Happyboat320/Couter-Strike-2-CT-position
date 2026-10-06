@@ -1,0 +1,12 @@
+{
+  "cologne-major-2026": {
+    "name": "IEM Cologne Major 2026",
+    "start_date": "2026-06-02",
+    "aliases": ["iem-cologne-major-2026"]
+  },
+  "esl-pro-league-season-24": {
+    "name": "ESL Pro League Season 24",
+    "start_date": "2026-10-03",
+    "aliases": ["esl-pro-league-s24"]
+  }
+}

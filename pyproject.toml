@@ -1,0 +1,27 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "cs-ct-heatmap"
+version = "0.1.0"
+description = "手动导入 CS2 demo 的 CT 防守站位解析工具"
+requires-python = ">=3.11"
+dependencies = ["demoparser2==0.42.0", "pandas>=2.2,<4", "pyarrow>=18", "matplotlib>=3.9", "numpy>=2", "rarfile>=4.2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+
+[project.scripts]
+cs-heatmap = "cs_heatmap.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[[tool.uv.index]]
+name = "ustc"
+url = "https://mirrors.ustc.edu.cn/pypi/simple"
+default = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/cs_heatmap"]

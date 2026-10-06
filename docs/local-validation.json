@@ -1,0 +1,64 @@
+[
+  {
+    "file": "astralis-vs-tyloo-nuke.dem",
+    "map": "nuke",
+    "rounds": 19,
+    "samples": 22252,
+    "sample_interval": 0.2,
+    "policy": "freeze+10s_alive-ct_0.2s_preplant_v2",
+    "tick_rate": 64.0,
+    "parse_seconds": 0.88,
+    "demo_bytes": 345505983,
+    "outside_radar_samples": 0,
+    "layers": {
+      "upper": {
+        "samples": 19032,
+        "player_seconds": 3806.4,
+        "image": "data/validation/0.2s/images/astralis-vs-tyloo-nuke-upper.png"
+      },
+      "lower": {
+        "samples": 3220,
+        "player_seconds": 644.0,
+        "image": "data/validation/0.2s/images/astralis-vs-tyloo-nuke-lower.png"
+      }
+    }
+  },
+  {
+    "file": "natus-vincere-vs-spirit-m1-dust2.dem",
+    "map": "dust2",
+    "rounds": 14,
+    "samples": 19939,
+    "sample_interval": 0.2,
+    "policy": "freeze+10s_alive-ct_0.2s_preplant_v2",
+    "tick_rate": 64.0,
+    "parse_seconds": 0.85,
+    "demo_bytes": 331960514,
+    "outside_radar_samples": 0,
+    "layers": {
+      "main": {
+        "samples": 19939,
+        "player_seconds": 3987.8,
+        "image": "data/validation/0.2s/images/natus-vincere-vs-spirit-m1-dust2-main.png"
+      }
+    }
+  },
+  {
+    "file": "natus-vincere-vs-spirit-m2-anubis.dem",
+    "map": "anubis",
+    "rounds": 21,
+    "samples": 33274,
+    "sample_interval": 0.2,
+    "policy": "freeze+10s_alive-ct_0.2s_preplant_v2",
+    "tick_rate": 64.0,
+    "parse_seconds": 0.79,
+    "demo_bytes": 486955729,
+    "outside_radar_samples": 0,
+    "layers": {
+      "main": {
+        "samples": 33274,
+        "player_seconds": 6654.8,
+        "image": "data/validation/0.2s/images/natus-vincere-vs-spirit-m2-anubis-main.png"
+      }
+    }
+  }
+]
